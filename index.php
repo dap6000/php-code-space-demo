@@ -14,7 +14,7 @@ function say(string $msg):void  {
 <form method="post" action="/">
     <label for="message">
         <p>Enter message:</p>
-        <input type="text" name="message" id="message"></input>
+        <textarea name="message" id="message"></textarea>
     </label>
     <button type="submit">Submit</button>
 </form>
